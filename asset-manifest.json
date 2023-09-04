@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Ecowiser_assignment/static/css/main.49ac63fd.css",
-    "main.js": "/Ecowiser_assignment/static/js/main.2d9c8cd1.js",
+    "main.css": "/Ecowiser_assignment/static/css/main.9b16afdc.css",
+    "main.js": "/Ecowiser_assignment/static/js/main.6aee1613.js",
     "index.html": "/Ecowiser_assignment/index.html",
-    "main.49ac63fd.css.map": "/Ecowiser_assignment/static/css/main.49ac63fd.css.map",
-    "main.2d9c8cd1.js.map": "/Ecowiser_assignment/static/js/main.2d9c8cd1.js.map"
+    "main.9b16afdc.css.map": "/Ecowiser_assignment/static/css/main.9b16afdc.css.map",
+    "main.6aee1613.js.map": "/Ecowiser_assignment/static/js/main.6aee1613.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ac63fd.css",
-    "static/js/main.2d9c8cd1.js"
+    "static/css/main.9b16afdc.css",
+    "static/js/main.6aee1613.js"
   ]
 }
