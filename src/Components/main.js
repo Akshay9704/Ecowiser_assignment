@@ -52,7 +52,7 @@ const Main = ({
           </h1>
         </nav>
       </header>
-      <div className="mt-8">
+      <div className="mt-8 w-full">
         <form>
           <label className="flex flex-col items-center">
             <span className="block text-xl font-medium text-slate-700">
@@ -63,34 +63,36 @@ const Main = ({
               id="title"
               value={title}
               onChange={handleChange}
-              className="w-full py-2 px-6 border-2 border-black rounded-xl placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500 mt-2"
+              className="lg:w-1/4 md:w-1/4 w-1/2 py-2 px-6 border-2 border-black rounded-xl placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500 mt-2"
             />
             <input
               placeholder="Tagline"
               name="tagline"
               value={tagline}
               onChange={handleChange}
-              className="w-full py-2 px-6 border-2 border-black rounded-xl placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500 mt-2"
+              className="lg:w-1/4 md:w-1/4 w-1/2 py-2 px-6 border-2 border-black rounded-xl placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500 mt-2"
             />
           </label>
-          <label className="flex flex-col">
+          <label className="flex flex-col items-center">
             <textarea
               placeholder="Description"
               name="description"
               value={description}
               onChange={handleChange}
-              className="border-black py-2 px-6 border-2 rounded-xl placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500 mt-2"
+              className="lg:w-1/4 md:w-1/4 w-1/2 border-black py-2 px-6 border-2 rounded-xl placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500 mt-2"
               rows="4"
               cols="50"
             ></textarea>
           </label>
         </form>
+        <div className="flex flex-col items-center">
         <button
           onClick={addNoteHandler}
-          className="flex justify-center gap-2 animate-bounce border-2 border-black w-full mt-5 py-2 rounded-xl bg-sky-600 text-white"
-        >
+          className="flex justify-center gap-2 animate-bounce border-2 border-black lg:w-1/4 md:w-1/4 w-1/2 mt-5 py-2 rounded-xl bg-sky-600 text-white"
+          >
           Add a Note <BsArrowDownCircle className="text-2xl" />
         </button>
+          </div>
       </div>
     </div>
   );
